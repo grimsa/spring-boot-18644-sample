@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "4e4ff599-c60b-4039-b650-49d066af7d5d",
+		"name": "spring-boot-18644",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Upload file",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"contentType": "application/json",
+							"type": "file",
+							"src": "test-image.gif"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/file",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"file"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
